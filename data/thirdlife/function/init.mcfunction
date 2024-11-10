@@ -18,6 +18,7 @@ scoreboard objectives add deaths deathCount
 scoreboard objectives add countdown dummy
 scoreboard objectives add boogeyKill minecraft.custom:minecraft.player_kills
 scoreboard objectives add boogeymen dummy
+scoreboard objectives add gift trigger
 scoreboard players set @a lives 3
 scoreboard players set #boogeymen boogeymen 1
 
@@ -35,3 +36,4 @@ tag @a remove boogeyman
 time set 1
 worldborder set 700
 gamemode survival @a
+function thirdlife:main_10t
