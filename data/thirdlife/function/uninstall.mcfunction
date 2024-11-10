@@ -15,6 +15,8 @@ scoreboard objectives remove deaths
 scoreboard objectives remove countdown
 scoreboard objectives remove boogeyKill
 scoreboard objectives remove boogeymen
+scoreboard objectives remove roll
+scoreboard objectives remove rolls
 scoreboard objectives remove gift
 
 # Game Rules
@@ -26,6 +28,8 @@ gamerule doFireTick true
 # Tags
 tag @a remove out
 tag @a remove boogeyman
+tag @a remove gift
+tag @a remove giver
 
 # Misc
 time set 1

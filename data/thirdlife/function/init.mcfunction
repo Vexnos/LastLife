@@ -18,15 +18,21 @@ scoreboard objectives add deaths deathCount
 scoreboard objectives add countdown dummy
 scoreboard objectives add boogeyKill minecraft.custom:minecraft.player_kills
 scoreboard objectives add boogeymen dummy
+scoreboard objectives add roll dummy
+scoreboard objectives add rolls dummy
 scoreboard objectives add gift trigger
 scoreboard players set @a lives 3
 scoreboard players set #boogeymen boogeymen 1
+scoreboard players set #rolls rolls 30
 
 # Game Rules
 gamerule doMobSpawning false
 gamerule doDaylightCycle false
 gamerule doWeatherCycle false
 gamerule doFireTick true
+gamerule playersSleepingPercentage 0
+gamerule keepInventory true
+difficulty easy
 
 # Tags
 tag @a remove out
