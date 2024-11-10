@@ -38,6 +38,9 @@ difficulty easy
 tag @a remove out
 tag @a remove boogeyman
 
+# Place Enchantment Table
+execute at @s run place template minecraft:enchanting_table
+
 # Misc
 time set 1
 worldborder set 700
