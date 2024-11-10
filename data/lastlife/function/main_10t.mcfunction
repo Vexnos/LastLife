@@ -1,0 +1,2 @@
+function lastlife:lifegifting/enabletrigger
+schedule function lastlife:main_10t 10t

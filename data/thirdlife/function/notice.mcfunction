@@ -1,2 +1,0 @@
-tellraw @a {"text":"Welcome to Third Life! Please run /function thirdlife:init to run the setup, then run /function thirdlife:start to begin!","color":"yellow"}
-execute at @a run playsound minecraft:block.anvil.land master @a

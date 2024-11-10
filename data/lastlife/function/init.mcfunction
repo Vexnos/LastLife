@@ -42,4 +42,4 @@ tag @a remove boogeyman
 time set 1
 worldborder set 700
 gamemode survival @a
-function thirdlife:main_10t
+function lastlife:main_10t
