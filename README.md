@@ -17,6 +17,8 @@ To gift a life, run `/trigger gift` and make sure the person you want to give th
 
 If you need to manually set anyone's lives for whatever reason, you can do that by running `/scoreboard players set @s lives <amount>`
 
+If you want to uninstall the datapack, run `/function lastlife:uninstall` and delete the datapack, then run `/reload`.
+
 ## Custom Crafting Recipes
 Unlike TNT requiring paper in Last Life, we've decided to implement the ability to smelt sugar into gunpowder while preserving the original TNT recipe.
 
