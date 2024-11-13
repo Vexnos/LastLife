@@ -1,25 +1,28 @@
-# Third Life
-This is a Third Life datapack created by myself, inspired by Grian's Third Life series. 
-Go check it out if you haven't: https://www.youtube.com/watch?v=nszciRXXJZk&list=PLU2851hDb3SHLdAlj8dxqHPeT_qIBbRBv
+# Last Life
+This is a Last Life datapack created by myself for version 1.21.1, inspired by Grian's Last Life series. 
+Go check it out if you haven't: https://www.youtube.com/watch?v=hjt-lI4n6B8&list=PLU2851hDb3SGqxkIdhgaWOdjA9cZNkhAN
 
-For a player size of 4 or above, I recommend a worldborder cap of 1000 for the best experience.
+## Game Mechanics
+I recommend a worldborder cap of 700 for the best experience.
 
-To start the game, have everyone on the server and run `/function thirdlife:init`.
+To start the game, have everyone on the server and run `/function lastlife:init` and then run `/function lastlife:start`.
 
-This current version of Third Life has the Boogeyman partially implemented. The Boogeyman was introduced in Season 2 of Third Life known as Last Life.
-To start the Boogeyman, run `/function thirdlife:boogeyinit`.
+To randomly roll lives, run `function lastlife:roll/init`, otherwise everyone will start on 3 lives.
 
-This current version of Third Life has Life Transferring implemented, run `/trigger givelife` and make sure the person you want to give the life to is the closest player to you and the life should transfer. You cannot give lives to people who are out, red names can't give lives to people as they would be out.
+To pause the session, run `/function lastlife:pause`, to resume run `/function lastlife:start`
 
-Then run the Python script and it will roll the amount of lives for each player, enjoy!
-Note: You will have to set the players lives manually if you randomly generate them
-To do that, run `scoreboard players set <player> Deaths <amount>`.
-```
--3 Deaths : 6 Lives
--2 Deaths : 5 Lives
--1 Deaths : 4 Lives
-0 Deaths : 3 Lives
-1 Deaths : 2 Lives
-2 Deaths : 1 Life
-3 Deaths : 0 Lives
-```
+To start the Boogeyman, run `/function lastlife:boogeyman/init`.
+
+To gift a life, run `/trigger gift` and make sure the person you want to give the life to is the closest player to you. You cannot give lives to people who are out, red names can't give lives to people as they would be out.
+
+If you need to manually set anyone's lives for whatever reason, you can do that by running `/scoreboard players @s lives <amount>`
+
+## Custom Crafting Recipes
+Unlike TNT requiring paper in Last Life, we've decided to implement the ability to smelt sugar into gunpowder while preserving the original TNT recipe.
+
+You cannot craft the Enchanting Table, you have to manually place one at the start of the game.
+
+Gravel can be smelted into Sand.
+
+Other custom recipes are from VanillaTweaks as they are just so vanilla friendly, we couldn't play without them!
+Go and check them out here: https://vanillatweaks.net/
