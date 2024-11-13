@@ -15,7 +15,7 @@ To start the Boogeyman, run `/function lastlife:boogeyman/init`.
 
 To gift a life, run `/trigger gift` and make sure the person you want to give the life to is the closest player to you. You cannot give lives to people who are out, red names can't give lives to people as they would be out.
 
-If you need to manually set anyone's lives for whatever reason, you can do that by running `/scoreboard players @s lives <amount>`
+If you need to manually set anyone's lives for whatever reason, you can do that by running `/scoreboard players set @s lives <amount>`
 
 ## Custom Crafting Recipes
 Unlike TNT requiring paper in Last Life, we've decided to implement the ability to smelt sugar into gunpowder while preserving the original TNT recipe.
